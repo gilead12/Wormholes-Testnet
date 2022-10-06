@@ -111,6 +111,13 @@ curl -X POST -H 'Content-Type:application/json' --data '{"jsonrpc":"2.0","method
 ```
 curl -X POST -H 'Content-Type:application/json' --data '{"jsonrpc":"2.0","method":"eth_blockNumber","id":1}' http://127.0.0.1:8545
 ```
+  
+## Node versiyon kontrolü
+
+```
+curl -X POST -H "Content-Type:application/json" --data '{"jsonrpc":"2.0","method":"eth_version","id":64}' http://127.0.0.1:8545
+```  
+
 
 ## Cüzdan bakiyesi
 
